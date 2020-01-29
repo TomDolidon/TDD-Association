@@ -18,4 +18,5 @@ class User
     public static function createUser($nom, $prenom, $dateNaissance){
         return new self($nom, $prenom, $dateNaissance);
     }
+
 }
