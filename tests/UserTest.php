@@ -11,7 +11,7 @@ final class UserTest extends TestCase
     {
         $this->assertInstanceOf(
             User::class,
-            User::__construc('Sajide', 'Adil', '10/11/1995')
+            User::createUser('Sajide', 'Adil', '10/11/1995')
             );
     }
 
